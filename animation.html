@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes changecolor{
+            0%{
+                background-color: blue;
+                left: 10px;
+                top: 10px;
+            }
+            20%{
+                background-color: brown;
+                left: 400px;
+                top: 10px;
+            }
+            40%{
+                background-color: black;
+                left: 400px;
+                top: 300px;
+            }
+            80%{
+                background-color: purple;
+                left: 10px;
+                top: 300px;
+            }
+            100%{
+                background-color: rgb(128, 4, 0);
+                left: 10px;
+                top: 10px;
+            }
+        }
+        div{
+            width: 100px;
+            height: 100px;
+            position: relative;
+            background-color: blue;
+            border-radius: 30px;
+            animation-name: changecolor;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+        }
+    </style>
+</head>
+<body>
+    <div>
+
+    </div>
+</body>
+</html>

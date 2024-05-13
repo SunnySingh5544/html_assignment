@@ -27,7 +27,7 @@ label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
-    color:navy;
+    color:rgb(128, 0, 0);
 }
 div{
     display: flex;
